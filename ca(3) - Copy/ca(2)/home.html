@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Website</title>
+   <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.featured-destinations {
+    padding: 2rem;
+    text-align: center;
+}
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destination {
+    margin: 10px;
+    text-align: center;
+}
+
+.destination img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MyBooking</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Find Your Perfect Stay</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Destination">
+            <input type="date">
+            <input type="date">
+            <input type="number" placeholder="Guests" min="1">
+            <button>Search</button>
+        </div>
+    </section>
+
+    <section class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destinations">
+            <div class="destination">
+                <img src="DELHI.PNG" alt="Destination 1">
+                <h3><a href="delhi.html">DELHI</a></h3>
+            </div>
+            <div class="destination">
+                <img src="" alt="Destination 2">
+                <h3><a href="andra.html">ANDHRA PRADESH</a></h3>
+            </div>
+            <div class="destination">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h3><a href="kerala.html">KERLA</a></h3>
+            </div>
+            <div class="destination">
+                <img src="destination4.jpg" alt="Destination 4">
+                <h3><a href="tn.html">TAMIL NADU</a></h3>
+            </div>
+            <div class="destination">
+                <img src="destination5.jpg" alt="Destination 5">
+                <h3><a href="goa.html">GOA</a></h3>
+            </div>
+            <div class="destination">
+                <img src="destination6.jpg" alt="Destination 6">
+                <h3><a href="kashmir.html">KASHMIR</a></h3>
+            </section>
+    
+        <section class="destinations">
+        <div class="destination">
+            <img src="destination7.jpg" alt="Destination 7">
+            <h3><a href="UK.HTML">UTTARAKHAND</a></h3>
+        </div>
+        <div class="destination">
+            <img src="destination8.jpg" alt="Destination 8">
+            <h3><a href="UP.HTML">UTTARA PRADESH</a></h3>
+        </div>
+        <div class="destination">
+            <img src="destination9.jpg" alt="Destination 9">
+            <h3><a href="TG.HTML">TELENGANA</a></h3>
+        </div>
+        <div class="destination">
+            <img src="destination10.jpg" alt="Destination 10">
+            <h3><a href="KARNATAKA.HTML">KARNATAKA</a></h3>
+        </div>
+        <div class="destination">
+            <img src="destination12.jpg" alt="Destination 11">
+            <h3><a href="MAHA.HTML">MAHARASTRA</a></h3>
+        </div>
+        <div class="destination">
+            <img src="destination13.jpg" alt="Destination 12">
+            <h3><a href="GUJ.HTML">GUJRATH</a></h3>
+        </div>
+    
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyBooking. All rights reserved.</p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
